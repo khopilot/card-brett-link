@@ -42,7 +42,7 @@ export function ProfileCard() {
         {/* Header Background */}
         <div className="absolute inset-0 h-64">
           <Image
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80"
+            src="/image/brettbusiness.jpg"
             alt="Background"
             fill
             className="object-cover opacity-90"
@@ -59,7 +59,7 @@ export function ProfileCard() {
               <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-black rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-300" />
               <div className="w-36 h-36 rounded-2xl overflow-hidden bg-white shadow-2xl border-2 border-white transform -rotate-3 hover:rotate-0 transition-all duration-500 relative z-10 animate-float">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80"
+                  src="/image/brettbusiness.jpg"
                   alt="Brett Goulding"
                   fill
                   className="object-cover"
@@ -101,7 +101,7 @@ export function ProfileCard() {
           {/* Professional Positions */}
           <div className="mb-16">
             <SectionHeading>Professional Positions</SectionHeading>
-            <ProfilePositions positions={positions} />
+            <ProfilePositions />
           </div>
 
           {/* Areas of Expertise */}
